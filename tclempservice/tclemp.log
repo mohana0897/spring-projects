@@ -1,0 +1,66 @@
+2023-03-23 17:46:13,110 INFO com.tcl.tclempservice.TclempserviceApplication [restartedMain] Starting TclempserviceApplication using Java 17.0.4 with PID 6180 (C:\Users\saipr\Downloads\tclemp\tclemp\tclempservice\target\classes started by saipr in C:\Users\saipr\Downloads\tclemp\tclemp\tclempservice)
+2023-03-23 17:46:13,112 INFO com.tcl.tclempservice.TclempserviceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:46:13,144 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:46:13,144 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:46:13,571 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 17:46:13,621 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2023-03-23 17:46:14,017 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:46:14,025 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-03-23 17:46:14,026 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-23 17:46:14,065 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-23 17:46:14,065 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 920 ms
+2023-03-23 17:46:14,195 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 17:46:14,246 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-23 17:46:14,480 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-23 17:46:14,706 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c28716
+2023-03-23 17:46:14,708 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-23 17:46:14,749 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-23 17:46:15,405 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 17:46:15,414 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:46:15,655 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 17:46:15,871 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-23 17:46:15,899 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 17:46:15,907 INFO com.tcl.tclempservice.TclempserviceApplication [restartedMain] Started TclempserviceApplication in 3.103 seconds (process running for 3.689)
+2023-03-23 17:46:19,872 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 17:46:19,872 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-23 17:46:19,874 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-03-23 17:46:19,926 DEBUG com.tcl.tclempservice.empcontroller.EmployeeController [http-nio-8080-exec-1] Log File
+2023-03-23 17:47:39,355 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2023-03-23 17:47:39,365 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(5)-127.0.0.1] Stopping service [Tomcat]
+2023-03-23 17:47:39,366 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(5)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-23 17:47:39,373 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(5)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:47:39,376 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-23 17:47:39,382 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-03-23 17:47:48,501 INFO com.tcl.tclempservice.TclempserviceApplication [restartedMain] Starting TclempserviceApplication using Java 17.0.4 with PID 12852 (C:\Users\saipr\Downloads\tclemp\tclemp\tclempservice\target\classes started by saipr in C:\Users\saipr\Downloads\tclemp\tclemp\tclempservice)
+2023-03-23 17:47:48,503 INFO com.tcl.tclempservice.TclempserviceApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-23 17:47:48,540 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 17:47:48,540 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 17:47:49,028 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 17:47:49,074 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2023-03-23 17:47:49,520 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-23 17:47:49,529 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-03-23 17:47:49,529 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-23 17:47:49,569 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-23 17:47:49,569 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1029 ms
+2023-03-23 17:47:49,662 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 17:47:49,697 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-23 17:47:49,876 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-23 17:47:50,098 INFO com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d93e61e
+2023-03-23 17:47:50,100 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-23 17:47:50,147 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-23 17:47:50,862 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 17:47:50,869 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:47:51,117 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 17:47:51,343 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-23 17:47:51,373 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 17:47:51,381 INFO com.tcl.tclempservice.TclempserviceApplication [restartedMain] Started TclempserviceApplication in 3.294 seconds (process running for 3.946)
+2023-03-23 17:47:55,554 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 17:47:55,554 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-23 17:47:55,555 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-03-23 17:47:55,580 DEBUG com.tcl.tclempservice.empcontroller.EmployeeController [http-nio-8080-exec-1] Log File
+2023-03-23 17:59:33,273 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2023-03-23 17:59:33,286 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(15)-127.0.0.1] Stopping service [Tomcat]
+2023-03-23 17:59:33,289 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(15)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-23 17:59:33,295 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(15)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 17:59:33,297 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-23 17:59:33,305 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-1 - Shutdown completed.
