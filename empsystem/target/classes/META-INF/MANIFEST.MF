@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: saipr
+Build-Jdk: 17.0.4
+Implementation-Title: empsystem
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.ssd
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/empsystem/
+Created-By: Maven Integration for Eclipse
+
